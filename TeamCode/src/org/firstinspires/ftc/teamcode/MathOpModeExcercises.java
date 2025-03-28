@@ -17,5 +17,6 @@ public class MathOpModeExcercises extends OpMode {
         telemetry.addData("Left stick y", gamepad1.right_stick_y);
         telemetry.addData("Joystick Difference", joystickDifference);
         telemetry.addData("Trigger Sum", triggerSum);
+
     }
 }
